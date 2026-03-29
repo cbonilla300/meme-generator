@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+body {
+    max-height: 100vh;
+    background-color: darkcyan;
+    
+}
+form {
+    max-width: 95%;
+}
+label {
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 2rem;
+    color: peachpuff;
+}
+input {
+    padding: .3rem;
+    width: 80%;
+    
+}
