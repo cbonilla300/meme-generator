@@ -1,24 +1,42 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }
 body {
-    max-height: 100vh;
-    background-color: darkcyan;
-    
+    height: 100vh;
+    background-color: #008b8b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1 {
+    text-align: center;
+    color: #8B0000;
+    margin-bottom: 2rem;
 }
 form {
-    max-width: 95%;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 }
 label {
-    width: 50%;
-    display: inline-block;
+    width: 100%;
+    display: block;
     margin-bottom: 2rem;
     color: peachpuff;
+    
 }
 input {
     padding: .3rem;
-    width: 80%;
-    
+    width: 100%;
+    margin-top: 5px;
+}
+button {
+    background-color: skyblue;
+    color: antiquewhite;
+    padding: .3rem;
+    width: 100px;
+   align-self: flex-end;
 }
