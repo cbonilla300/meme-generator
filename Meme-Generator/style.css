@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body {
-    height: 100vh;
+    min-height: 100vh;
     background-color: #008b8b;
     display: flex;
     flex-direction: column;
@@ -39,4 +39,37 @@ button {
     padding: .3rem;
     width: 100px;
    align-self: flex-end;
+}
+.card {
+    display: inline-block;
+    margin: 0 1rem 1rem 0;
+}
+.text {
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+    width: 100%;
+    word-wrap: break-word;
+}
+#meme-container {
+    margin-top: 2rem;
+    margin: 2rem 1rem 0 1rem;
+}
+#text-1 {
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    text-align: center;
+    /* right: 35%; */
+    /* z-index: 1; */
+}
+#text-2 {
+    position: absolute;
+    bottom: .5rem;
+    /* z-index: 1; */
+    /* left: 40%; */
+}
+#relative {
+    position: relative;
+    /* overflow: hidden; */
 }
